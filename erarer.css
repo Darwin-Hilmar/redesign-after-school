@@ -1,0 +1,539 @@
+@media screen and (min-width: 1024px) {
+
+    /* For desktop */
+    .papers-programas {
+        display: flex;
+    }
+
+    .title-txt h2 {
+        font-size: 36px;
+        font-weight: bold;
+    }
+
+    .card-bord {
+        width: 28rem;
+        margin-top: 20px;
+    }
+
+    .card-bord .card-body .card-title {
+        font-size: 24px;
+        color: #0032AF;
+        font-weight: 700;
+    }
+
+    .card-bord .card-body .card-text {
+        font-size: 18px;
+        line-height: normal;
+    }
+
+    .card-bord .card-body .card-autor {
+        font-style: italic;
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
+    .card-bord .card-body .card-pclave {
+        font-size: 16px;
+        color: #0032AF;
+        font-weight: 500;
+        margin-top: 5px;
+    }
+
+    .card-bord .card-body a {
+        font-size: 24px;
+        background-color: #0032AF;
+        font-weight: 500;
+        border-radius: 12px;
+        margin-top: 20px;
+    }
+
+    .content-description .marg-content {
+        margin-top: 50px;
+        padding: 50px;
+
+    }
+
+    .content-description img {
+        width: 60%;
+    }
+
+    .content-description p {
+        font-size: 24px;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .select-option {
+        width: 200px;
+        margin-left: auto;
+    }
+
+    .select-option .form-select {
+        border-radius: 12px;
+        border-color: #B2B9CC;
+        font-size: 18px;
+        width: 100%;
+        text-align: center
+    }
+
+    .header-area .main-nav .nav {
+        float: right;
+        padding: 10px;
+        margin-top: 20px;
+        margin-right: 0px;
+        background-color: transparent;
+        -webkit-transition: all 0.3s ease 0s;
+        -moz-transition: all 0.3s ease 0s;
+        -o-transition: all 0.3s ease 0s;
+        transition: all 0.3s ease 0s;
+        position: relative;
+        z-index: 999;
+        background-color: #0032AF;
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+    }
+
+    .blog-item .cont-content .down-content p,
+    .card-blog p {
+        margin: 15px;
+    }
+
+    .blog-item .cont-content .down-content .text-fecha,
+    .card-blog .text-fecha {
+        color: #0032AF;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .blog-item .cont-content .down-content .text-titulo,
+    .card-blog .text-titulo {
+        color: #0032AF;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+    }
+
+    .blog-item .cont-content .down-content .text-descripcion,
+    .card-blog .text-descripcion {
+        font-size: 18px;
+        font-style: normal;
+    }
+
+    .blog-item .cont-content .down-content .text-autor,
+    .card-blog .text-autor {
+        font-size: 18px;
+        font-style: italic;
+        font-weight: 300;
+    }
+
+    .carrusel-testimonios .container,
+    .def-section .container,
+    .def-sectionbg .container {
+        width: 80%;
+    }
+
+    .carrusel-testimonios p {
+        font-size: 24px;
+        line-height: normal;
+    }
+
+    .carrusel-testimonios .text-italic {
+        font-style: italic;
+        font-size: 20px;
+        margin: 10px;
+    }
+
+    .mg-pd .content-text p {
+        margin: 10px;
+        font-size: 30px;
+        line-height: normal;
+    }
+
+    .image-title {
+        font-size: 75px;
+    }
+
+    .enf-texto-pro p {
+        font-size: 24px;
+        font-weight: 500;
+    }
+
+    #modalContacto,
+    #modalContactoEnd {
+        width: 50%;
+        max-height: 550px;
+    }
+
+    .alianzas-st {
+        width: 50%;
+    }
+
+}
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+
+    /* For tablet */
+    .papers-programas {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .title-txt h2 {
+        font-size: 36px;
+        font-weight: bold;
+    }
+
+    .card-bord {
+        width: 28rem;
+        margin-top: 20px;
+    }
+
+    .card-bord .card-body .card-title {
+        font-size: 24px;
+        color: #0032AF;
+        font-weight: 700;
+    }
+
+    .card-bord .card-body .card-text {
+        font-size: 18px;
+        line-height: normal;
+    }
+
+    .card-bord .card-body .card-autor {
+        font-style: italic;
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
+    .card-bord .card-body .card-pclave {
+        font-size: 16px;
+        color: #0032AF;
+        font-weight: 500;
+        margin-top: 5px;
+    }
+
+    .card-bord .card-body a {
+        font-size: 18px;
+        background-color: #0032AF;
+        font-weight: 500;
+        border-radius: 12px;
+        margin-top: 20px;
+    }
+
+    .content-description .marg-content {
+        margin-top: 50px;
+        padding: 50px;
+
+    }
+
+    .content-description img {
+        width: 90%;
+    }
+
+    .content-description p {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .select-option {
+        width: 200px;
+        margin-left: auto;
+    }
+
+    .select-option .form-select {
+        border-radius: 12px;
+        border-color: #B2B9CC;
+        font-size: 18px;
+        width: 100%;
+        text-align: center
+    }
+
+    .header-area .main-nav .nav {
+        float: right;
+        padding: 10px;
+        margin-top: 20px;
+        margin-right: 0px;
+        background-color: transparent;
+        -webkit-transition: all 0.3s ease 0s;
+        -moz-transition: all 0.3s ease 0s;
+        -o-transition: all 0.3s ease 0s;
+        transition: all 0.3s ease 0s;
+        position: relative;
+        z-index: 999;
+        background-color: #0032AF;
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+    }
+
+
+    .blog-item .cont-content .down-content p,
+    .card-blog p {
+        margin: 15px;
+    }
+
+    .blog-item .cont-content .down-content .text-fecha,
+    .card-blog .text-fecha {
+        color: #0032AF;
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .blog-item .cont-content .down-content .text-titulo,
+    .card-blog .text-titulo {
+        color: #0032AF;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+    }
+
+    .blog-item .cont-content .down-content .text-descripcion,
+    .card-blog .text-descripcion {
+        font-size: 14px;
+        font-style: normal;
+        line-height: normal;
+    }
+
+    .blog-item .cont-content .down-content .text-autor,
+    .card-blog .text-autor {
+        font-size: 14px;
+        font-style: italic;
+        font-weight: 300;
+        line-height: normal;
+    }
+
+    .carrusel-testimonios .container,
+    .def-section .container,
+    .def-sectionbg .container {
+        width: 70%;
+    }
+
+    .carrusel-testimonios p {
+        font-size: 22px;
+        line-height: normal;
+    }
+
+    .carrusel-testimonios .text-italic {
+        font-style: italic;
+        font-size: 18px;
+        margin: 8px;
+    }
+
+    .mg-pd .content-text p {
+        margin: 10px;
+        font-size: 26px;
+        line-height: normal;
+    }
+
+    .image-title {
+        font-size: 60px;
+    }
+
+    .enf-texto-pro p {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    #modalContacto,
+    #modalContactoEnd {
+        width: 50%;
+        max-height: 550px;
+    }
+
+    .alianzas-st {
+        width: 50%;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+
+    /* For smartphone */
+    .papers-programas {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .title-txt h2 {
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .align-image-directora h5 {
+        font-size: 22px;
+        font-weight: 700;
+    }
+
+    .card-bord {
+        width: 16rem;
+        margin-top: 30px;
+    }
+
+    .card-bord .card-body .card-title {
+        font-size: 20px;
+        color: #0032AF;
+        font-weight: 700;
+    }
+
+    .card-bord .card-body .card-text {
+        font-size: 14px;
+        line-height: normal;
+    }
+
+    .card-bord .card-body .card-autor {
+        font-style: italic;
+        font-size: 14px;
+        margin-top: 10px;
+    }
+
+    .card-bord .card-body .card-pclave {
+        font-size: 13px;
+        color: #0032AF;
+        font-weight: 500;
+        margin-top: 5px;
+    }
+
+    .card-bord .card-body a {
+        font-size: 20px;
+        background-color: #0032AF;
+        font-weight: 500;
+        border-radius: 12px;
+        margin-top: 20px;
+    }
+
+    .content-description .marg-content {
+        margin-top: 50px;
+        padding: 30px;
+    }
+
+    .content-description img {
+        width: 60%;
+    }
+
+    .content-description p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: normal;
+        margin-top: 20px;
+    }
+
+    .select-option {
+        width: 100px;
+        margin-left: auto;
+    }
+
+    .select-option .form-select {
+        border-radius: 12px;
+        border-color: #B2B9CC;
+        font-size: 16px;
+        width: 100%;
+        text-align: center
+    }
+
+    .header-area .main-nav .nav {
+        float: none;
+        border-radius: 12px;
+        background-color: #0032AF;
+        -webkit-transition: all 0.3s ease 0s;
+        -moz-transition: all 0.3s ease 0s;
+        -o-transition: all 0.3s ease 0s;
+        transition: all 0.3s ease 0s;
+        z-index: 999;
+    }
+
+    .blog-item .cont-content .down-content p,
+    .card-blog p {
+        margin: 5px;
+    }
+
+    .blog-item .cont-content .down-content .text-fecha,
+    .card-blog .text-fecha {
+        color: #0032AF;
+        font-size: 10px;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .blog-item .cont-content .down-content .text-titulo,
+    .card-blog .text-titulo {
+        color: #0032AF;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .blog-item .cont-content .down-content .text-descripcion,
+    .card-blog .text-descripcion {
+        font-size: 12px;
+        font-style: normal;
+        line-height: normal;
+    }
+
+    .blog-item .cont-content .down-content .text-autor,
+    .card-blog .text-autor {
+        font-size: 12px;
+        font-style: italic;
+        font-weight: 300;
+    }
+
+    .carrusel-testimonios .container,
+    .def-section .container,
+    .def-section .container-lg,
+    .def-sectionbg .container-lg {
+        width: 100%;
+    }
+
+    .carrusel-testimonios p {
+        font-size: 18px;
+        line-height: normal;
+    }
+
+    .carrusel-testimonios .text-italic {
+        font-style: italic;
+        font-size: 16px;
+        margin: 8px;
+    }
+
+    .mg-pd .content-text p {
+        margin: 10px;
+        font-size: 20px;
+        line-height: normal;
+    }
+
+    .image-title {
+        font-size: 40px;
+    }
+
+    .enf-texto-pro p {
+        font-size: 15px;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    #modalContacto,
+    #modalContactoEnd {
+        width: 90%;
+        max-height: 85%;
+        max-width: none;
+    }
+
+    .alianzas-st {
+        width: 80%;
+    }
+
+    .texto-superpuesto {
+        left: 20%;
+        text-align: center;
+    }
+
+    .texto-superpuesto h1 {
+        font-size: 32px;
+        margin-bottom: 5px;
+    }
+
+    .texto-superpuesto p {
+        font-size: 20px;
+        margin: 0;
+        color: #fff;
+    }
+}
