@@ -7,14 +7,19 @@ body {
 }
 
 a {
-  color: #F9A50E;
   text-decoration: none;
 }
 
-a:hover {
+strong {
+  color: #002794;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+/* a:hover {
   color: #fc8129;
   text-decoration: none;
-}
+} */
 
 h1,
 h2,
@@ -54,6 +59,38 @@ h6 {
 }
 
 .back-to-top.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+
+.back-contact {
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  right: 15px;
+  bottom: 65px;
+  z-index: 996;
+  background: #F9A50E;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  transition: all 0.4s;
+}
+
+.back-contact i {
+  font-size: 28px;
+  color: #fff;
+  line-height: 0;
+}
+
+.back-contact:hover {
+  background: #fc7c1f;
+  color: #fff;
+}
+
+.back-contact.active {
   visibility: visible;
   opacity: 1;
 }
@@ -585,7 +622,7 @@ h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 40px 0;
   overflow: hidden;
 }
 
@@ -621,6 +658,16 @@ section {
   font-weight: 700;
   line-height: 1.2;
   text-transform: uppercase;
+  font-family: "Nunito", sans-serif;
+  color: #0032AF;
+}
+
+.section-subtitle {
+  margin: 0;
+  margin: 0;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 1.2;
   font-family: "Nunito", sans-serif;
   color: #0032AF;
 }
@@ -690,6 +737,44 @@ section {
   max-width: 70%;
   height: auto;
 }
+
+.img-class-about img {
+  max-width: 55%;
+  height: auto;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+
+.img-class-about img:hover {
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.35);
+  transform: scale(1.05);
+}
+
+.content-subtitle-uws h5 {
+  text-align: justify;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  padding: 10px;
+}
+
+
+.content-subtitle h5 {
+  text-align: justify;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  padding: 10px;
+  border-left: 10px solid #002794;
+  border-radius: 8px;
+  box-shadow: 0px 2px 0px 0px rgba(0, 39, 148, 0.5);
+}
+
+.text-about-bottom p {
+  font-size: 1.1rem;
+  text-align: center;
+}
+
 
 /*--------------------------------------------------------------
 # Features
@@ -1730,9 +1815,15 @@ section {
 
 .card-bord {
   border-radius: 12px;
-  /* Aqui el borde no coge todo el card*/
+  overflow: hidden;
   box-shadow: 0px 4px 8px 3px #B2B9CC;
 
+}
+
+.card-bord img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 
@@ -1743,6 +1834,10 @@ section {
 
 /* styles of website after  */
 @media screen and (min-width: 1024px) {
+
+  .content-subtitle {
+    margin-bottom: 5%;
+  }
 
   /* For desktop */
   .papers-programas {
@@ -1916,6 +2011,11 @@ section {
 @media screen and (min-width: 767px) and (max-width: 1023px) {
 
   /* For tablet */
+
+  .content-subtitle {
+    margin-bottom: 5%;
+  }
+
   .papers-programas {
     display: flex;
     flex-direction: column;
@@ -2092,6 +2192,24 @@ section {
 @media screen and (max-width: 767px) {
 
   /* For smartphone */
+
+  .content-subtitle {
+    display: flex;
+    margin-bottom: 5%;
+    flex-direction: column;
+    /* Apila los elementos verticalmente */
+  }
+
+  .content-subtitle>.col-md-6:first-child {
+    order: 2;
+    /* Mueve la imagen al final */
+  }
+
+  .content-subtitle>.col-lg-6:last-child {
+    order: 1;
+    /* Mueve el texto al inicio */
+  }
+
   .papers-programas {
     display: flex;
     flex-direction: column;
@@ -2278,4 +2396,63 @@ section {
     margin: 0;
     color: #fff;
   }
+}
+
+
+
+
+
+.style-button {
+  background-color: #0032AF;
+  font-weight: 500;
+  border-radius: 12px;
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+.style-button:hover {
+  background-color: #002794;
+  transform: scale(1.05);
+}
+
+.textBox-button {
+  margin-top: 10%;
+}
+
+.content h4 {
+  text-align: justify;
+}
+
+
+/* Blogs */
+.card-text-fecha {
+  color: #0032AF;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 0%;
+  text-decoration: none;
+}
+
+.card-text-titulo {
+  color: #0032AF;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.card-text-descripcion {
+  font-size: 1.1rem;
+  font-style: normal;
+  line-height: normal;
+  color: #444444;
+}
+
+.card-text-autor {
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: 300;
+  color: #444444;
 }
